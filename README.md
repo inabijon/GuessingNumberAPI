@@ -1,2 +1,2 @@
-# GuessNumberAPI with dotnet 7
+# GuessingNumberAPI with dotnet-7
  

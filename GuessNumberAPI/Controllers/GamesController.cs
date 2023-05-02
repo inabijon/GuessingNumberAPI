@@ -38,7 +38,7 @@ namespace GuessNumberAPI.Controllers
             try
             {
                 var game = new Game();
-                var secret = SecretNumberGenerator.SecretNumberForGameGenerator();
+                var secret = new SecretNumberGenerator().GenerateUniqueDigitNumber();
 
                 game.SecretNumber = secret;
                 game.UserId = userId;
